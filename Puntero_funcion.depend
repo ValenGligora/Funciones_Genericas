@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1584223420 source:c:\users\laboratorios\desktop\nueva carpeta (2)\puntero_funcion\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1747183453 source:c:\users\laboratorios\desktop\funicones genéricas\puntero_funcion\vector.c
+	<stdlib.h>
+	<stdio.h>
+	"Vector.h"
+
+1747183453 c:\users\laboratorios\desktop\funicones genéricas\puntero_funcion\vector.h
+	<stdbool.h>
+	<stddef.h>
+	<string.h>
+
+1747183629 source:c:\users\laboratorios\desktop\funicones genéricas\puntero_funcion\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"vector.h"
+
