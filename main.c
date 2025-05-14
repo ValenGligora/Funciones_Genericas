@@ -14,6 +14,11 @@ Fecha;
 //*(((Fecha*)miVec.vec)+1) Esto cuando queremos debuggear y ver los elementos en el watch
 int cmpFechas(const void* a, const void* b);
 void imprimirFecha(const void* a);
+// memcpy(dirDest, dirOrig, cantBytes); 
+//copia en la dirc de destino lo que se encuentra en la dir de origen
+
+// memmove(dirDest, dirOrig, cantBytes);
+// desplazamiento en bloque a la direccion destino
 
 int main()
 {
@@ -46,7 +51,7 @@ int main()
 
     time_t tiempoEjecucion = tFin - tIni;
 
-    printf("Tiempo de ejecución: %Iu\n", tiempoEjecucion);
+    printf("Tiempo de ejecuciÃ³n: %Iu\n", tiempoEjecucion);
 
 //    puts("\nDespues:");
 
